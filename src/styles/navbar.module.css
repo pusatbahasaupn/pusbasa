@@ -1,0 +1,46 @@
+
+@media screen and (min-width : 640px){
+
+    .hambar{
+        width:100%;
+    }
+
+    .hambar.ham1{
+        width:70%;
+    }
+    .hambar.ham2{
+        width:60%;
+    }
+    .hambar.ham3{
+        width:80%;
+    }
+    .navSlide{
+        right: -100%;
+        top:0%;
+       
+    }
+    
+    .navSlide.show{
+        right: 20%;
+        top:0%;
+       
+       
+    }
+
+}
+
+
+@media screen and (min-width : 360px){
+    .navSlide{
+        top:5em;
+        right: -100%;
+       
+    }
+    
+    .navSlide.show{
+        top:5em;
+        right: 2%;
+       
+       
+    }
+}
