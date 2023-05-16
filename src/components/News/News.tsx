@@ -42,18 +42,17 @@ export default function News() {
         sub="latest news & articles"
         title="📰 • Berita & artikel terbaru"
       />
-      <div className="flex justify-between">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
         {articles.map((article, index) => {
           return (
-            <>
+            <div key={index}>
               <NewsCard
-                key={index}
                 title={article.title}
                 imgUrl={article.imgUrl}
                 description={article.description}
                 createdAt={article.createdAt}
               />
-            </>
+            </div>
           );
         })}
       </div>
