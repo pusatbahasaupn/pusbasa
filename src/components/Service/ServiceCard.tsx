@@ -1,6 +1,6 @@
 export default function ServiceCard() {
   return (
-    <article className="w-3/12 space-y-3 py-3">
+    <article className="space-y-3 py-3">
       <div className="text-center">
         <svg
           className="inline-block"
