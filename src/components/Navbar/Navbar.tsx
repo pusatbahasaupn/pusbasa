@@ -6,7 +6,7 @@ export default function Navbar() {
   const [hamClick, setHamClick] = useState(false);
 
   return (
-    <nav className=" flex p-2 w-[100%] md:items-center mt-4">
+    <nav className=" flex justify-between w-[100%] md:items-center py-5">
       <div className="sm:w-[80%] hp:w-[80%] md:w-[40%] xl:w-[25%]  flex xl:text-lg md:text-sm  sm:items-center">
         <img
           className="sm:m-1 md:m-1 md:mb-2 md:ml-0 md:mr-2 md:w-[3em]  sm:w-[2.5em] hp:w-[2.2em] hp:m-1 hp:mr-2"
