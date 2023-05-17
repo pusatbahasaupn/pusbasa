@@ -5,5 +5,5 @@ interface Children {
 }
 
 export default function Container({ children }: Children) {
-  return <div className="mx-auto container md:px-20">{children}</div>;
+  return <div className="mx-auto container px-5 md:px-20">{children}</div>;
 }
