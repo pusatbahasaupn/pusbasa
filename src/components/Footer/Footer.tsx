@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="my-5">
-      <div className="flex gap-10">
-        <div className="w-3/12">
+    <footer className="my-5 text-sm md:text-base">
+      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-10">
+        <div className="">
           <div className="flex items-center">
             <img
               className="sm:m-1 md:m-1 md:mb-2 md:ml-0 md:mr-2 md:w-[3em]  sm:w-[2.5em] hp:w-[2.2em] hp:m-1 hp:mr-2"
@@ -25,7 +25,7 @@ export default function Footer() {
             peningkatan kemampuan, dan pelayanan uji kemampuan bahasa.
           </div>
         </div>
-        <div className="w-3/12 space-y-3">
+        <div className="space-y-3">
           <div className="text-xl font-semibold">Unit Pelaksana</div>
           <div>
             <ul className="space-y-3">
@@ -36,7 +36,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-3/12 space-y-3">
+        <div className="space-y-3">
           <div className="text-xl font-semibold">Biro</div>
           <div>
             <ul className="space-y-3">
@@ -47,7 +47,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-3/12 space-y-3">
+        <div className="space-y-3">
           <div className="text-xl font-semibold">Institusi</div>
           <div>
             <ul className="space-y-3">
